@@ -1,0 +1,25 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.box {
+  width: 100px;
+  height: 100px;
+  margin: 50px auto;
+  border: 2px solid navy;
+  transition: .3s width ,
+              .3s height .3s,
+              .3s margin-top .3s,
+              .1s background-color ;
+}
+
+.size {
+  width: 200px;
+  height: 200px;
+  margin-top: 25px;
+}
+
+.caption {
+  background-color: darkcyan;
+}
